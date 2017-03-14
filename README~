@@ -1,0 +1,14 @@
+This project aims to provide a custom welcome voice greeting to the user after logging into the system.
+
+Steps to be followed:
+
+->Ubuntu 14.04 LTS:
+	1. Change the path in the file 'greeting_runfile.sh' to '/path/to/runfile.sh/in/your/system/'
+	2. Similarly, change the paths in 'runfile.sh' to '/path/to/the/corresponding/file/in/your/system/'
+	3. Copy the file 'greeting_runfile.sh' in '/etc/profile.d/' (You may need root priviledges).
+	
+To customize the greeting message:
+
+	1. Edit the corresponding lines of the file 'greeting_variety'.
+	2. Save the file.
+	3. Changes will take effect after logging off.
